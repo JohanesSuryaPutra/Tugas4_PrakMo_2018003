@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_menu">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profilelokasi"
+            android:title="Profile Lokasi" />
+        <item
+            android:id="@+id/nav_lokal"
+            android:icon="@drawable/lokasilokal"
+            android:title="Lokasi Lokal" />
+        <item
+            android:id="@+id/nav_mancanegara"
+            android:icon="@drawable/lokasimancanegra"
+            android:title="Lokasi Mancanegara" />
+    </group>
+</menu>
